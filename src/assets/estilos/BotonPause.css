@@ -1,0 +1,20 @@
+.boton-pause {
+  background-color: #3b4a81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.imgPause{
+  flex-shrink: 0;
+  max-height: 70%;
+  max-width: 70%;
+  filter: brightness(0) invert(1);
+  user-select: none;
+}

@@ -1,0 +1,4 @@
+.operacion-columns {
+    display: flex;
+    flex-direction: row !important;
+}

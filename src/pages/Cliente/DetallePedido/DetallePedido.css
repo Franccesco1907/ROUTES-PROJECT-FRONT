@@ -1,0 +1,19 @@
+.detail-order-title {
+    color: #3B4A81;
+}
+
+.detail-order-subtitle {
+    color: #3B4A81;
+    font-size: 1.2em;
+}
+
+.detail-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

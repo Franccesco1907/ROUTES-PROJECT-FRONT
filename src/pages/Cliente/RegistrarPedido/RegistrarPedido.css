@@ -1,0 +1,36 @@
+:root {
+	--white: #FFFFFF;
+	--black: #000000;
+	--very-light-pink: #C7C7C7;
+	--text-input-field: #F7F7F7;
+	--blue: #3B4A81;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
+}
+
+.RegistrarPedido {
+    margin: 10px 50px
+}
+
+.title {
+    color: var(--blue);
+    font-size: 40px;
+    font-weight: bold;
+	text-align: center;
+	padding-right: 7.5rem;
+}
+
+.save {
+	color: (--white);
+	margin: 30px;
+}
+
+.cancel {
+	border: #000000;
+	margin: 30px;
+}
+
+.buttons {
+	margin: 1rem;
+}

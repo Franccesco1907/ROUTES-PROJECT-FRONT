@@ -1,0 +1,31 @@
+.path{
+    stroke-width: 0.5;
+    stroke: green;
+    fill: none;
+    position: relative;
+    stroke-opacity: 1;
+}
+
+.truck{
+    fill: #3b4a81;
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    animation: blinker 1.5s linear infinite;
+    pointer-events: all;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    pointer-events: all;
+  }
+}

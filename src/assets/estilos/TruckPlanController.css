@@ -1,0 +1,4 @@
+.svgContainer{
+    position: absolute;
+    pointer-events: none;
+  }

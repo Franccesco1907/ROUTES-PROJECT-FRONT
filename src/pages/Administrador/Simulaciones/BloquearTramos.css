@@ -1,0 +1,10 @@
+.contenedor-bloqueos {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    margin: 1rem;
+    width: 500px;
+}

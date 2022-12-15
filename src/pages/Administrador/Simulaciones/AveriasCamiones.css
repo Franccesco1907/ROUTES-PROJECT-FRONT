@@ -1,0 +1,5 @@
+.averias-container {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}

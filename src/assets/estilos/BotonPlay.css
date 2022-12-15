@@ -1,0 +1,19 @@
+.boton-play{
+  background-color: #3b4a81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  user-select: none;
+}
+
+.imgPlay{
+  flex-shrink: 0;
+  max-height: 90%;
+  max-width: 90%;
+  filter: brightness(0) invert(1);
+  user-select: none;
+}
